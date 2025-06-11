@@ -1,0 +1,12 @@
+{
+  "name": "accept-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot that automatically adds a configurable role to a server member upon accepting the rules.",
+  "main": "index.js",
+  "author": "brockbreacher",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
