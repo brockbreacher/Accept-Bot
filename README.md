@@ -1,5 +1,5 @@
 # Accept-Bot
-![GitHub](https://img.shields.io/github/license/brockbreacher/accept-bot) ![Status](https://status.brbr.xyz/api/badge/12/status) ![24HourUptime](https://status.brbr.xyz/api/badge/12/uptime/24) ![30DayUptime](https://status.brbr.xyz/api/badge/12/uptime/720?label=30&labelSuffix=d) 
+![GitHub](https://img.shields.io/github/license/brockbreacher/accept-bot) ![Status](https://status.brbr.xyz/api/badge/16/status) ![24HourUptime](https://status.brbr.xyz/api/badge/16/uptime/24) ![30DayUptime](https://status.brbr.xyz/api/badge/16/uptime/720?label=30&labelSuffix=d) 
 
 [Invite Me](https://discord.com/oauth2/authorize?client_id=1382111158546206720)  [Support Server](https://discord.gg/SWTseD7)
 
