@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
+const { Client, GatewayIntentBits, SlashCommandBuilder, PermissionFlagsBits, ActivityType } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -25,6 +25,34 @@ if (!fs.existsSync(DATA_DIR)) {
 
 client.on('ready', async () => {
   console.log(`[Ready] Logged in as ${client.user.tag}`);
+
+  // Set bot status if environment variables are present
+  if (process.env.ACTIVITY) {
+    try {
+      // Create mapping between string values and ActivityType
+      const activityTypes = {
+        'PLAYING': ActivityType.Playing,
+        'LISTENING': ActivityType.Listening,
+        'WATCHING': ActivityType.Watching
+      };
+
+      // Get the type from env (uppercase) or default to Playing
+      const typeKey = process.env.TYPE ? process.env.TYPE.toUpperCase() : 'PLAYING';
+      const selectedType = activityTypes[typeKey] || ActivityType.Playing;
+
+      client.user.setPresence({
+        activities: [{
+          name: process.env.ACTIVITY,
+          type: selectedType
+        }],
+        status: 'online'
+      });
+
+      console.log(`[Status] Set activity to ${typeKey} "${process.env.ACTIVITY}"`);
+    } catch (err) {
+      console.error('[Error] Failed to set activity:', err);
+    }
+  }
 
   try {
     await client.application.commands.create(
