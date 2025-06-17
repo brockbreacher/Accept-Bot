@@ -14,7 +14,7 @@ A simple Discord bot that automatically adds a configurable role to a server mem
 
 `ACTVITY` | Bot Activity Message (EX, You Sleep)
 
-`TYPE` | The actvity type (LISTENING, WATCHING, PLAYING)
+`TYPE` | The Activity type (LISTENING, WATCHING, PLAYING)
 
 
 
