@@ -20,7 +20,6 @@ A simple Discord bot that automatically adds a configurable role to a server mem
 The bot requires the following permissions to function properly:
 - Manage Roles
 - View Messages
-- Use Application Commands
 - Send Messages
 
 You can also use the [Cardboard Services Bot Invite Generator](https://invite.cardboards.net/) to generate an invite link with these permissions automatically. 
