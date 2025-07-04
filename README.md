@@ -5,7 +5,7 @@
 [Invite Me](https://discord.com/oauth2/authorize?client_id=1382111158546206720)  [Support Server](https://discord.gg/SWTseD7)
 
 
-A simple Discord bot that automatically adds a configurable role to a server member upon accepting the rules.
+A simple Discord bot that automatically adds a configurable role(s) to a server member upon accepting the rules.
 ## Rule-Gating Made Simple.
 
 ### Environment Variables:
@@ -27,6 +27,6 @@ You can also use the [Cardboard Services Bot Invite Generator](https://invite.ca
 Important: The bot's role must be positioned above any role it attempts to assign automatically.
 
 ### Command:
-`/accept-role` [@role]: Sets the role assigned to a user automatically after they accept the rules.  (User running command must have Manage Server permissions and bot's role MUST be above the role being assigned!)
+`/accept-role` [primary-role:@role] <additional-role-1:@role1 (goes up to 5)>: Sets the role(s) assigned to a user automatically after they accept the rules.  (User running command must have Manage Server permissions and bot's role MUST be above the role being assigned!)
 
 ###### Created By brockbreacher
