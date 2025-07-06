@@ -5,7 +5,7 @@
 [Invite Me](https://discord.com/oauth2/authorize?client_id=1382111158546206720)  [Support Server](https://discord.gg/SWTseD7)
 
 
-A simple Discord bot that automatically adds a configurable role(s) to a server member upon accepting the rules.
+A simple Discord bot that automatically adds configurable role(s) to a server member upon accepting the rules.
 ## Rule-Gating Made Simple.
 
 ### Environment Variables:
