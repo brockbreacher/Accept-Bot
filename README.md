@@ -1,3 +1,7 @@
+EOL: This project will receive no more updates as I no longer feel like playing catch up with Discord constantly and considering how much the platform hates its users lately I feel no need to continue supporting them for free. Everything works as of the time of archiving and people are free to fork it as they please as long as they follow the license. 
+-brock
+
+
 # Accept-Bot
 ![Discord Shield](https://discord.com/api/guilds/514101346992128012/widget.png?style=shield)
 ![GitHub](https://img.shields.io/github/license/brockbreacher/Accept-Bot) ![Up](https://status.brbr.xyz/api/badge/16/status?) ![24HourUptime](https://status.brbr.xyz/api/badge/16/uptime/24) ![30DayUptime](https://status.brbr.xyz/api/badge/16/uptime/720?label=30&labelSuffix=d) 
